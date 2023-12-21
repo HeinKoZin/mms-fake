@@ -15,17 +15,17 @@
     <!-- Contact Us Section -->
     <section class="py-16">
         <div class="container mx-auto text-center">
-            <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">Contact Yoe Yar</h2>
+            <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">Contact ရိုးရာ - Yoe Yar</h2>
             <p class="text-lg md:text-xl lg:text-2xl text-gray-700 leading-relaxed mx-auto max-w-2xl">
-                Have questions or want to get in touch with Bagan Culture? Feel free to reach out to us using the
+                Have questions or want to get in touch with ရိုးရာ - Yoe Yar? Feel free to reach out to us using the
                 contact information below or by filling out the contact form.
 
                 <!-- Contact Information -->
             <div class="mt-8">
                 <p class="text-gray-800 font-bold text-xl">Contact Information:</p>
-                <p>Email: info@yoeyar.com</p>
+                <p>Email: yoeyar.info@gmail.com</p>
                 <p>Phone: +959950668891</p>
-                <p>Address: Yoe Yar Center, Bagan, Myanmar</p>
+                <p>Address: ရိုးရာ - Yoe Yar, Bagan, Myanmar</p>
             </div>
 
             <!-- Contact Form -->
@@ -53,6 +53,6 @@
 
     <!-- Footer -->
     <footer class="bg-gray-800 text-white text-center py-4">
-        <p>&copy; 2023 Yoe Yar. All rights reserved.</p>
+        <p>&copy; 2023 ရိုးရာ - Yoe Yar. All rights reserved.</p>
     </footer>
 </template>

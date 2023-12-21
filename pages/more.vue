@@ -96,7 +96,7 @@
                 Have questions or want to learn more about ရိုးရာ - Yoe Yar? Contact us below.
             </p>
             <div class="mt-8">
-                <a href="#" class="bg-red-800 text-white hover:bg-blue-400 py-2 px-4 rounded-full text-lg">Contact
+                <a href="contact-us" class="bg-red-800 text-white hover:bg-blue-400 py-2 px-4 rounded-full text-lg">Contact
                     Now</a>
             </div>
         </div>

@@ -1,0 +1,19 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "vip.yoeyar.webapp",
+      "sha256_cert_fingerprints": [
+        "94:73:D4:0E:C4:A0:A7:0A:55:5E:E2:E7:DF:F1:EA:3F:CC:8E:1D:A1:92:F1:F2:C2:DA:B9:97:6A:57:48:D8:B1"
+      ]
+    }
+  },
+  {
+    "relation": ["check_validation"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "vip.yoeyar.webapp"
+    }
+  }
+]

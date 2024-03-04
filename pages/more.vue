@@ -1,109 +1,156 @@
 <template>
     <!-- Navigation -->
-    <nav class="bg-red-800 p-4">
+    <nav class="bg-green-800 p-4">
         <div class="container mx-auto flex justify-between items-center">
-            <div class="text-white text-xl font-semibold">ရိုးရာ - Yoe Yar</div>
+            <div class="text-white text-xl font-semibold">Myanmar Soccer</div>
             <ul class="flex space-x-4">
-                <li><a href="/" class="text-white hover:text-gray-300">Home</a></li>
-                <li><a href="/more" class="text-red-800 hover:text-gray-300 bg-white  p-2 rounded-md">About</a></li>
-                <li><a href="/contact-us" class="text-white hover:text-gray-300">Contact</a></li>
+                <li>
+                    <a href="/" class="text-white hover:text-gray-300">Home</a>
+                </li>
+                <li>
+                    <a
+                        href="/more"
+                        class="text-green-800 hover:text-gray-300 bg-white p-2 rounded-md"
+                        >About</a
+                    >
+                </li>
+                <li>
+                    <a href="/contact-us" class="text-white hover:text-gray-300"
+                        >Contact</a
+                    >
+                </li>
             </ul>
         </div>
     </nav>
 
-    <!-- Learn More Section -->
-    <section class="py-16">
+    <!-- About Section -->
+    <section id="about" class="py-16">
         <div class="container mx-auto text-center">
-            <!-- Cultural Significance Section -->
-            <section id="cultural-significance" class="mb-8">
-                <h3 class="text-2xl md:text-3xl font-bold mb-4">Cultural Significance</h3>
-                <p class="text-lg md:text-xl lg:text-2xl text-gray-700 leading-relaxed mx-auto max-w-2xl">
-                    ရိုးရာ - Yoe Yar holds immense cultural significance, serving as a treasure trove of historical and
-                    architectural wonders. The temples and pagodas scattered across the landscape tell stories of
-                    Myanmar's spiritual and artistic evolution.
-                </p>
-            </section>
+            <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">
+                About Myanmar Soccer
+            </h2>
+            <p
+                class="text-lg md:text-xl lg:text-2xl text-gray-700 leading-relaxed mx-auto max-w-2xl"
+            >
+                Myanmar Soccer has a rich history and passionate fan base. From
+                local tournaments to international competitions, soccer holds a
+                special place in the hearts of Myanmar's people. Learn more
+                about the teams, players, and events that shape the soccer
+                landscape in Myanmar.
+            </p>
+        </div>
+    </section>
 
-            <!-- Events and Festivals Section -->
-            <section id="events-festivals" class="mb-8">
-                <h3 class="text-2xl md:text-3xl font-bold mb-4">Events and Festivals</h3>
-                <p class="text-lg md:text-xl lg:text-2xl text-gray-700 leading-relaxed mx-auto max-w-2xl">
-                    Immerse yourself in the cultural festivities of ရိုးရာ - Yoe Yar. The city hosts various events and
-                    festivals
-                    throughout the year, celebrating traditions, art, and community. From religious ceremonies to
-                    vibrant cultural performances, there's always something exciting happening in ရိုးရာ - Yoe Yar.
-                </p>
-            </section>
+    <!-- Events Section -->
+    <section id="events" class="py-16">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">
+                Soccer Events in Myanmar
+            </h2>
+            <p
+                class="text-lg md:text-xl lg:text-2xl text-gray-700 leading-relaxed mx-auto max-w-2xl"
+            >
+                Explore the exciting soccer events that take place throughout
+                Myanmar. From local league matches to national tournaments,
+                there's always something happening in the world of Myanmar
+                Soccer. Stay updated with the latest scores, schedules, and
+                highlights.
+            </p>
+        </div>
+    </section>
 
-            <!-- Activities Section -->
-            <section id="activities" class="mb-8">
-                <h3 class="text-2xl md:text-3xl font-bold mb-4">Activities</h3>
-                <p class="text-lg md:text-xl lg:text-2xl text-gray-700 leading-relaxed mx-auto max-w-2xl">
-                    Discover the activities that allow you to experience ရိုးရာ - Yoe Yar in a unique way. Whether it's a
-                    hot air
-                    balloon ride during sunrise, exploring hidden temples, or participating in traditional ceremonies,
-                    ရိုးရာ - Yoe Yar offers a plethora of activities for every type of traveler.
-                </p>
-            </section>
+    <!-- Teams Section -->
+    <section id="teams" class="py-16">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">
+                Soccer Teams in Myanmar
+            </h2>
+            <p
+                class="text-lg md:text-xl lg:text-2xl text-gray-700 leading-relaxed mx-auto max-w-2xl"
+            >
+                Get to know the prominent soccer teams in Myanmar. From
+                traditional powerhouses to up-and-coming challengers, each team
+                brings its own unique style and talent to the field. Explore
+                player profiles, team histories, and fan communities.
+            </p>
+        </div>
+    </section>
 
-            <!-- Preservation Efforts Section -->
-            <section id="preservation-efforts" class="mb-8">
-                <h3 class="text-2xl md:text-3xl font-bold mb-4">Preservation Efforts</h3>
-                <p class="text-lg md:text-xl lg:text-2xl text-gray-700 leading-relaxed mx-auto max-w-2xl">
-                    Learn about the ongoing efforts to preserve and protect the cultural heritage of ရိုးရာ - Yoe Yar.
-                    Preservation
-                    initiatives ensure that future generations can continue to appreciate the beauty and historical
-                    significance of this extraordinary city.
-                </p>
-            </section>
+    <!-- Players Section -->
+    <section id="players" class="py-16">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">
+                Soccer Players in Myanmar
+            </h2>
+            <p
+                class="text-lg md:text-xl lg:text-2xl text-gray-700 leading-relaxed mx-auto max-w-2xl"
+            >
+                Meet the top soccer players in Myanmar. From seasoned veterans
+                to rising stars, these players showcase the skill and passion
+                that define Myanmar Soccer. Learn about their backgrounds,
+                achievements, and future prospects.
+            </p>
+        </div>
+    </section>
 
-            <!-- Plan Your Visit Section -->
-            <section id="plan-your-visit" class="mb-8">
-                <h3 class="text-2xl md:text-3xl font-bold mb-4">Plan Your Visit</h3>
-                <p class="text-lg md:text-xl lg:text-2xl text-gray-700 leading-relaxed mx-auto max-w-2xl">
-                    If you're inspired to explore ရိုးရာ - Yoe Yar in person, find practical information on planning your
-                    visit.
-                    Discover the best times to travel, recommended accommodations, and tips for experiencing the magic
-                    of ရိုးရာ - Yoe Yar firsthand.
-                </p>
-            </section>
-
-            <!-- Image Gallery Section -->
-            <section id="image-gallery">
-                <h3 class="text-2xl md:text-3xl font-bold mb-4">Image Gallery</h3>
-                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-8 ">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/P1130180_filtered_Panorama_s.jpg/2880px-P1130180_filtered_Panorama_s.jpg"
-                        alt="Bagan Culture 1" class="w-full h-64 object-cover rounded-md">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Mi_Nyein_Gone-Bagan-Myanmar-15-Panorama_view-gje.jpg/2880px-Mi_Nyein_Gone-Bagan-Myanmar-15-Panorama_view-gje.jpg"
-                        alt="Bagan Culture 2" class="w-full h-64 object-cover rounded-md">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Ruins_of_Bagan%2C_1999.jpg/2560px-Ruins_of_Bagan%2C_1999.jpg"
-                        alt="Bagan Culture 3" class="w-full h-64 object-cover rounded-md">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Old_Bagan%2C_Myanmar%2C_Sunset_over_ancient_12th_century_pagodas_in_Bagan_plains.jpg/2560px-Old_Bagan%2C_Myanmar%2C_Sunset_over_ancient_12th_century_pagodas_in_Bagan_plains.jpg"
-                        alt="Bagan Culture 3" class="w-full h-64 object-cover rounded-md">
-                    <!-- Add more images as needed -->
-                </div>
-            </section>
-
-
+    <!-- Image Gallery Section -->
+    <section id="image-gallery" class="px-6">
+        <h3 class="text-2xl md:text-3xl font-bold mb-4 text-center">
+            Image Gallery
+        </h3>
+        <div
+            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-8"
+        >
+            <img
+                src="https://i1.wp.com/www.aseanfootball.org/v2/wp-content/uploads/2017/02/mff-3.jpg"
+                alt="Bagan Culture 1"
+                class="w-full h-64 object-cover rounded-md"
+            />
+            <img
+                src="https://i0.wp.com/www.aseanfootball.org/v3/wp-content/uploads/2019/08/Myan-VN-Wmns-1.jpg"
+                alt="Bagan Culture 2"
+                class="w-full h-64 object-cover rounded-md"
+            />
+            <img
+                src="https://www.aseanfootball.org/v3/wp-content/uploads/2018/11/myanmar-laos-1-800x400.jpg"
+                alt="Bagan Culture 3"
+                class="w-full h-64 object-cover rounded-md"
+            />
+            <img
+                src="https://www.aseanfootball.org/v3/wp-content/uploads/2019/04/MFF-Jockey-1-800x400.jpg"
+                alt="Bagan Culture 3"
+                class="w-full h-64 object-cover rounded-md"
+            />
+            <!-- Add more images as needed -->
         </div>
     </section>
 
     <!-- Contact Section -->
     <section id="contact" class="bg-gray-200 py-16">
         <div class="container mx-auto text-center">
-            <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 text-gray-800">Contact Us</h2>
-            <p class="text-lg md:text-xl lg:text-2xl text-gray-700 leading-relaxed mx-auto max-w-2xl">
-                Have questions or want to learn more about ရိုးရာ - Yoe Yar? Contact us below.
+            <h2
+                class="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 text-gray-800"
+            >
+                Contact Myanmar Soccer
+            </h2>
+            <p
+                class="text-lg md:text-xl lg:text-2xl text-gray-700 leading-relaxed mx-auto max-w-2xl"
+            >
+                Have questions or want to learn more about soccer in Myanmar?
+                Contact our team at the information below.
             </p>
             <div class="mt-8">
-                <a href="contact-us" class="bg-red-800 text-white hover:bg-blue-400 py-2 px-4 rounded-full text-lg">Contact
-                    Now</a>
+                <a
+                    href="contact-us"
+                    class="bg-green-800 text-white hover:bg-green-700 py-2 px-4 rounded-full text-lg"
+                    >Contact Now</a
+                >
             </div>
         </div>
     </section>
 
     <!-- Footer -->
     <footer class="bg-gray-800 text-white text-center py-4">
-        <p>&copy; 2023 ရိုးရာ - Yoe Yar. All rights reserved.</p>
+        <p>&copy; 2024 Myanmar Soccer. All rights reserved.</p>
     </footer>
 </template>

@@ -1,13 +1,18 @@
 <template>
     <!-- Navigation -->
-    <nav class="bg-red-800 p-4">
+    <nav class="bg-green-800 p-4">
         <div class="container mx-auto flex justify-between items-center">
-            <div class="text-white text-xl font-semibold">Yoe Yar</div>
+            <div class="text-white text-xl font-semibold">Myanmar Soccer</div>
             <ul class="flex space-x-4">
-                <li><a href="/" class="text-white hover:text-gray-300">Home</a></li>
-                <li><a href="/more" class="text-white hover:text-gray-300">About</a></li>
-                <li><a href="/contact-us" class="text-red-800 p-2 rounded-md hover:text-gray-300 bg-white">Contact
-                        us</a></li>
+                <li>
+                    <a href="/" class="text-white hover:text-gray-300">Home</a>
+                </li>
+                <li>
+                    <a href="/more" class="text-white hover:text-gray-300">About</a>
+                </li>
+                <li>
+                    <a href="/contact-us" class="text-green-800 hover:text-gray-300 bg-white p-2 rounded-md  ">Contact</a>
+                </li>
             </ul>
         </div>
     </nav>
@@ -15,17 +20,17 @@
     <!-- Contact Us Section -->
     <section class="py-16">
         <div class="container mx-auto text-center">
-            <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">Contact ရိုးရာ - Yoe Yar</h2>
+            <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">Contact Myanmar Soccer</h2>
             <p class="text-lg md:text-xl lg:text-2xl text-gray-700 leading-relaxed mx-auto max-w-2xl">
-                Have questions or want to get in touch with ရိုးရာ - Yoe Yar? Feel free to reach out to us using the
+                Have questions or want to get in touch with Myanmar Soccer? Feel free to reach out to us using the
                 contact information below or by filling out the contact form.
 
                 <!-- Contact Information -->
             <div class="mt-8">
                 <p class="text-gray-800 font-bold text-xl">Contact Information:</p>
                 <p>Email: yoeyar.info@gmail.com</p>
-                <p>Phone: +959950668891</p>
-                <p>Address: ရိုးရာ - Yoe Yar, Bagan, Myanmar</p>
+                <p>Phone: +959950668871</p>
+                <p>Address: Myanmar Soccer, Yangon, Myanmar</p>
             </div>
 
             <!-- Contact Form -->
@@ -53,6 +58,6 @@
 
     <!-- Footer -->
     <footer class="bg-gray-800 text-white text-center py-4">
-        <p>&copy; 2023 ရိုးရာ - Yoe Yar. All rights reserved.</p>
+        <p>&copy; 2024 Myanmar Soccer. All rights reserved.</p>
     </footer>
 </template>

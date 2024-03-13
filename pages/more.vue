@@ -1,8 +1,16 @@
 <template>
     <!-- Navigation -->
-    <nav class="bg-green-800 p-4">
+    <nav class="bg-purple-800 p-4">
         <div class="container mx-auto flex justify-between items-center">
-            <div class="text-white text-xl font-semibold">Myanmar Soccer</div>
+            <div class="gap-2 flex-row flex justify-center items-center">
+                <img
+                    src="https://v1skm.vip/build/assets/img/brand/logo.png"
+                    class="w-11 h-11"
+                />
+                <div class="text-white text-xl font-semibold">
+                    V1 - Shan Koe Mee
+                </div>
+            </div>
             <ul class="flex space-x-4">
                 <li>
                     <a href="/" class="text-white hover:text-gray-300">Home</a>
@@ -10,7 +18,7 @@
                 <li>
                     <a
                         href="/more"
-                        class="text-green-800 hover:text-gray-300 bg-white p-2 rounded-md"
+                        class="text-purple-800 hover:text-gray-300 bg-white p-2 rounded-md"
                         >About</a
                     >
                 </li>
@@ -27,16 +35,16 @@
     <section id="about" class="py-16">
         <div class="container mx-auto text-center">
             <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">
-                About Myanmar Soccer
+                About Shan Koe Mee
             </h2>
             <p
                 class="text-lg md:text-xl lg:text-2xl text-gray-700 leading-relaxed mx-auto max-w-2xl"
             >
-                Myanmar Soccer has a rich history and passionate fan base. From
-                local tournaments to international competitions, soccer holds a
-                special place in the hearts of Myanmar's people. Learn more
-                about the teams, players, and events that shape the soccer
-                landscape in Myanmar.
+                Shan Koe Mee has a rich history and passionate fan base. From
+                local tournaments to international competitions, Shan Koe Mee
+                holds a special place in the hearts of Myanmar's people. Learn
+                more about the players, tournaments, and events that shape the
+                Shan Koe Mee landscape.
             </p>
         </div>
     </section>
@@ -45,33 +53,16 @@
     <section id="events" class="py-16">
         <div class="container mx-auto text-center">
             <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">
-                Soccer Events in Myanmar
+                Shan Koe Mee Events
             </h2>
             <p
                 class="text-lg md:text-xl lg:text-2xl text-gray-700 leading-relaxed mx-auto max-w-2xl"
             >
-                Explore the exciting soccer events that take place throughout
-                Myanmar. From local league matches to national tournaments,
-                there's always something happening in the world of Myanmar
-                Soccer. Stay updated with the latest scores, schedules, and
-                highlights.
-            </p>
-        </div>
-    </section>
-
-    <!-- Teams Section -->
-    <section id="teams" class="py-16">
-        <div class="container mx-auto text-center">
-            <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">
-                Soccer Teams in Myanmar
-            </h2>
-            <p
-                class="text-lg md:text-xl lg:text-2xl text-gray-700 leading-relaxed mx-auto max-w-2xl"
-            >
-                Get to know the prominent soccer teams in Myanmar. From
-                traditional powerhouses to up-and-coming challengers, each team
-                brings its own unique style and talent to the field. Explore
-                player profiles, team histories, and fan communities.
+                Explore the exciting Shan Koe Mee events that take place
+                throughout Myanmar. From local tournaments to national
+                competitions, there's always something happening in the world of
+                Shan Koe Mee. Stay updated with the latest scores, schedules,
+                and highlights.
             </p>
         </div>
     </section>
@@ -80,14 +71,14 @@
     <section id="players" class="py-16">
         <div class="container mx-auto text-center">
             <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">
-                Soccer Players in Myanmar
+                Shan Koe Mee Players
             </h2>
             <p
                 class="text-lg md:text-xl lg:text-2xl text-gray-700 leading-relaxed mx-auto max-w-2xl"
             >
-                Meet the top soccer players in Myanmar. From seasoned veterans
-                to rising stars, these players showcase the skill and passion
-                that define Myanmar Soccer. Learn about their backgrounds,
+                Meet the top Shan Koe Mee players. From seasoned veterans to
+                rising stars, these players showcase the skill and passion that
+                define Shan Koe Mee. Learn about their backgrounds,
                 achievements, and future prospects.
             </p>
         </div>
@@ -102,23 +93,23 @@
             class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-8"
         >
             <img
-                src="https://i1.wp.com/www.aseanfootball.org/v2/wp-content/uploads/2017/02/mff-3.jpg"
-                alt="Bagan Culture 1"
+                src="https://v1skm.vip/build/assets/img/brand/logo.png"
+                alt="Shan Koe Mee Culture 1"
                 class="w-full h-64 object-cover rounded-md"
             />
             <img
-                src="https://i0.wp.com/www.aseanfootball.org/v3/wp-content/uploads/2019/08/Myan-VN-Wmns-1.jpg"
-                alt="Bagan Culture 2"
+                src="https://v1skm.vip/build/assets/img/brand/logo.png"
+                alt="Shan Koe Mee Culture 2"
                 class="w-full h-64 object-cover rounded-md"
             />
             <img
-                src="https://www.aseanfootball.org/v3/wp-content/uploads/2018/11/myanmar-laos-1-800x400.jpg"
-                alt="Bagan Culture 3"
+                src="https://v1skm.vip/build/assets/img/brand/logo.png"
+                alt="Shan Koe Mee Culture 3"
                 class="w-full h-64 object-cover rounded-md"
             />
             <img
-                src="https://www.aseanfootball.org/v3/wp-content/uploads/2019/04/MFF-Jockey-1-800x400.jpg"
-                alt="Bagan Culture 3"
+                src="https://v1skm.vip/build/assets/img/brand/logo.png"
+                alt="Shan Koe Mee Culture 3"
                 class="w-full h-64 object-cover rounded-md"
             />
             <!-- Add more images as needed -->
@@ -131,13 +122,13 @@
             <h2
                 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 text-gray-800"
             >
-                Contact Myanmar Soccer
+                Contact V1 - Shan Koe Mee
             </h2>
             <p
                 class="text-lg md:text-xl lg:text-2xl text-gray-700 leading-relaxed mx-auto max-w-2xl"
             >
-                Have questions or want to learn more about soccer in Myanmar?
-                Contact our team at the information below.
+                Have questions or want to learn more about Shan Koe Mee in
+                Myanmar? Contact our team at the information below.
             </p>
             <div class="mt-8">
                 <a
@@ -151,6 +142,6 @@
 
     <!-- Footer -->
     <footer class="bg-gray-800 text-white text-center py-4">
-        <p>&copy; 2024 Myanmar Soccer. All rights reserved.</p>
+        <p>&copy; 2024 V1 - Shan Koe Mee. All rights reserved.</p>
     </footer>
 </template>

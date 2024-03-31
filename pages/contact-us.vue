@@ -7,7 +7,7 @@
 					src="https://v1skm.vip/build/assets/img/brand/logo.png"
 					class="w-11 h-11"
 				/>
-				<div class="text-white text-xl font-semibold">V1 - SKM</div>
+				<div class="text-white text-xl font-semibold">V One</div>
 			</div>
 			<ul class="flex space-x-4">
 				<li>
@@ -31,21 +31,21 @@
 	<section class="py-16">
 		<div class="container mx-auto text-center">
 			<h2 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">
-				Contact V1 - SKM
+				Contact V One
 			</h2>
 			<p
 				class="text-lg md:text-xl lg:text-2xl text-gray-700 leading-relaxed mx-auto max-w-2xl"
 			>
-				Have questions or want to get in touch with V1 - SKM? Feel free to reach
+				Have questions or want to get in touch with V One? Feel free to reach
 				out to us using the contact information below or by filling out the
 				contact form.
 			</p>
 			<!-- Contact Information -->
 			<div class="mt-8">
 				<p class="text-gray-800 font-bold text-xl">Contact Information:</p>
-				<p>Email: yoeyar.info@gmail.com</p>
-				<p>Phone: +959950668871</p>
-				<p>Address: V1 - Shan Koe Mee, Yangon, Myanmar</p>
+				<p>Email: info@v-one.com</p>
+				<p>Phone: +951256620</p>
+				<p>Address: 28 54 Street, Yangon, Myanmar</p>
 			</div>
 
 			<!-- Contact Form -->
@@ -104,6 +104,6 @@
 
 	<!-- Footer -->
 	<footer class="bg-gray-800 text-white text-center py-4">
-		<p>&copy; 2024 V1 - SKM. All rights reserved.</p>
+		<p>&copy; 2024 V One. All rights reserved.</p>
 	</footer>
 </template>

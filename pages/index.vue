@@ -18,7 +18,7 @@
 					>
 				</li>
 				<li>
-					<a href="/menu" class="text-white hover:text-gray-300">Menu</a>
+					<a href="/more" class="text-white hover:text-gray-300">About Us</a>
 				</li>
 				<li>
 					<a href="/contact-us" class="text-white hover:text-gray-300"
